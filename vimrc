@@ -6,8 +6,10 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-" Plugin 'vim-airline/vim-airline'
-" Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'gryf/wombat256grf'
+
 " The following are examples of different formats supported.
 " Plugin 'flazz/vim-colorschemes'
 " Keep Plugin commands between vundle#begin/end.
@@ -57,9 +59,8 @@ syntax on
 set t_Co=256
 set cursorline
 
-colorscheme morning
-" highlight Normal ctermbg=NONE
-" highlight nonText ctermbg=NONE
+colorscheme wombat256grf
+
 
 set wrap
 set hlsearch
