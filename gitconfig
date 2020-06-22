@@ -1,0 +1,7 @@
+[user]
+	email = pradyumna.shome@gmail.com
+	name = Pradyumna Shome
+[core]
+	autocrlf = input
+[credential]
+	helper = store
