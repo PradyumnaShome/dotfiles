@@ -58,11 +58,13 @@ export GOROOT="/usr/local/go"
 export GOPATH="/home/pradyumna/Coding/GoWorkspace/"
 export PATH=$PATH:"/usr/local/go/bin"
 
+# FPSG cluster
 alias hw="ssh pshome2@highwind.cs.illinois.edu"
+alias rr="ssh pshome2@ragnarok.cs.illinois.edu"
+alias dn="ssh pshome2@dreadnought.cs.illinois.edu"
+
+# UIUC
 alias ews="ssh pshome2@linux.ews.illinois.edu"
-alias adm="ssh pshome2@sp20-cs241-adm.illinois.edu"
-alias 241="ssh pshome2@sp20-cs241-421.cs.illinois.edu"
-alias 463="ssh pshome2@seclab-enclave-3.cs.illinois.edu"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin:$HOME/exercism"
