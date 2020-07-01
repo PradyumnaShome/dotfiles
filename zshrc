@@ -59,9 +59,15 @@ export GOPATH="/home/pradyumna/Coding/GoWorkspace/"
 export PATH=$PATH:"/usr/local/go/bin"
 
 # FPSG cluster
+
+# Servers
 alias hw="ssh pshome2@highwind.cs.illinois.edu"
 alias rr="ssh pshome2@ragnarok.cs.illinois.edu"
 alias dn="ssh pshome2@dreadnought.cs.illinois.edu"
+
+# Commands
+alias cs="condor_submit"
+alias wj="watch -n 1 condor_q"
 
 # UIUC
 alias ews="ssh pshome2@linux.ews.illinois.edu"
