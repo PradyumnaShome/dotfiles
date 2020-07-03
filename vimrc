@@ -6,15 +6,15 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'gryf/wombat256grf'
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
+Plugin 'megantiu/true.vim'
 
 " The following are examples of different formats supported.
 " Plugin 'flazz/vim-colorschemes'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
 " Track the engine.
 " Plugin 'SirVer/ultisnips'
@@ -55,20 +55,25 @@ filetype plugin indent on    " required
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" enable 24bit true color
+if (has("termguicolors"))
+    set termguicolors
+endif
+
 syntax on
 set t_Co=256
 set cursorline
 
-colorscheme wombat256grf
+colorscheme true
 
 
 set wrap
 set hlsearch
 set showmatch
 
-" Set text width to 80, and ensure formatting options to include textwidth
-" set tw=100
-" set fo+=t
+" Show vertical bar at column 80 
+set colorcolumn=81
+highlight ColorColumn ctermbg=red guibg=red
 
 set noerrorbells
 set novisualbell
@@ -89,3 +94,5 @@ noremap <Right> <NOP>
 
 " Display line numbers
 set number
+
+set laststatus=2
