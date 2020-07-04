@@ -9,5 +9,5 @@
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-
-
+    ~/.vim/colors: vim/colors
+    ~/.tmux.conf: tmux
