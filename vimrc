@@ -23,9 +23,8 @@ Plugin 'Valloric/YouCompleteMe'
 " Plugin 'honza/vim-snippets'
 
 " Trigger configuration. Do not use <tab> if you use Valloric/YouCompleteMe
-
-
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-obsession'
 " Plugin 'scrooloose/NERDTree'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
